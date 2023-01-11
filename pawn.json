@@ -16,21 +16,24 @@
 	],
     "resources": [
         {
-            "name": "^sscanf-(.+)-linux.tar.gz$",
+            "name": "^sscanf-(.+)-omp-linux.tar.gz$",
             "platform": "linux",
+            "version": "openmp",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/sscanf.so"]
+            "files": {
+                "components/sscanf.so": "components/sscanf.so"
+            }
         },
         {
-            "name": "^sscanf-(.*)-win32.zip$",
+            "name": "^sscanf-(.*)-omp-win32.zip$",
             "platform": "windows",
+            "version": "openmp",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/sscanf.dll"]
+            "files": {
+                "components/sscanf.dll": "components/sscanf.dll"
+            }
         }
-    ],
-    "runtime": {
-        "plugins": ["Y-Less/sscanf"]
-    }
+    ]
 }
