@@ -22,7 +22,7 @@
             "archive": true,
             "includes": ["pawno/include"],
             "files": {
-                "components/sscanf.so": "../components/sscanf.so"
+                "components/sscanf.so": "../../components/sscanf.so"
             }
         },
         {
@@ -32,7 +32,7 @@
             "archive": true,
             "includes": ["pawno/include"],
             "files": {
-                "components/sscanf.dll": "../components/sscanf.dll"
+                "components/sscanf.dll": "../../components/sscanf.dll"
             }
         }
     ]
