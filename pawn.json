@@ -22,8 +22,7 @@
             "archive": true,
             "includes": ["pawno/include"],
             "files": {
-                "components/sscanf.so": "../../../components/sscanf.so",
-                "amxsscanf.so": "../../../amxsscanf.so"
+                "components/sscanf.so": "../components/sscanf.so"
             }
         },
         {
@@ -33,8 +32,7 @@
             "archive": true,
             "includes": ["pawno/include"],
             "files": {
-                "components/sscanf.dll": "../../../components/sscanf.dll",
-                "amxsscanf.so": "../../../amxsscanf.dll"
+                "components/sscanf.dll": "../components/sscanf.dll",
             }
         }
     ]
